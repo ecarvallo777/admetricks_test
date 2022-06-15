@@ -50,7 +50,7 @@ function run () {
                 await csv.toDisk('./assets/csv/songs.csv'); // export data to csv.
                 
                 browser.close(); // Close headless browser.
-                return;
+                return 'Search into assets folder :).';
 
             }
 
@@ -61,4 +61,4 @@ function run () {
         }
     })
 }
-run().then('Search into assets folder :).', console.error);
+run().then(console.log, console.error);
