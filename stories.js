@@ -58,7 +58,7 @@ function run (){
                 await csv.toDisk('./assets/csv/stories.csv'); // export csv with data.
                 
                 browser.close(); // Close headless browser.
-                return;
+                return 'Search into assets folder :).';
 
             }       
             return resolve(exportData(getstories));
@@ -74,4 +74,4 @@ function run (){
 }
 
 
-run().then('Search into assets folder :).', console.error);
+run().then(console.log, console.error);
