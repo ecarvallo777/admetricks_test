@@ -8,7 +8,7 @@ content of the **instructions url's** and then, **get elements with the data req
 
 Finally, **export data and take screenshots.**
 
-In the first challenge (**songs.js**) we found messy data, i.e. raw data obtained from the web, so my implementation is based on an extracting process. It gets elements with the data requested (song and author) following this example order::
+In the first challenge (**songs.js**) I found messy data, i.e. raw data obtained from the web, so my implementation is based on an extracting process. It gets elements with the data requested (song and author) following this example order::
 
     Song: 'This is a song for Miss Hedy LamarrJeffBeck, Johnny Depp'
     Author: 'Jeff Beck, Johnny Depp'
@@ -24,7 +24,7 @@ And I designed a function to **separate author details of Song str.**
     
 In the second challenge (**stories.js**) the DOM content (of instructions url) **never** loaded the elements that contain the data requested. So we need to visit the iframe's href to get the elements that contain the stories data.
 
-To convert the img src into MD5, we used **native javascript.**
+To convert the img src into MD5, I used **native javascript.**
 
 # How to run?
 ***
