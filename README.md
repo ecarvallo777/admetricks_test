@@ -22,7 +22,7 @@ And I designed a function to **separate autor details of Song str.**
                         return song.toString().replaceAll(',',"");
     }
     
-In the second challenge (**stories.js**), the DOM content (of instructions url) **never** loaded the elements that contains the data requested. Then, we need to visit the iframe's href to get the elements that contains the stories data.
+In the second challenge (**stories.js**) the DOM content (of instructions url) **never** loaded the elements that contains the data requested. Then, we need to visit the iframe's href to get the elements that contains the stories data.
 
 To convert the img src into MD5, he used **native javascript.**
 
