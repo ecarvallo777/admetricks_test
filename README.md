@@ -11,14 +11,14 @@ Finally, **export data and take screenshots.**
 In the first challenge (**songs.js**) we found messy data, i.e. raw data obtained from the web, so my implementation is based on an extracting process. It gets elements with the data requested (song and author) following this example order::
 
     Song: 'This is a song for Miss Hedy LamarrJeffBeck, Johnny Depp'
-    Autor: 'Jeff Beck, Johnny Depp'
+    Author: 'Jeff Beck, Johnny Depp'
 
-And I designed a function to **separate autor details of Song str.**
+And I designed a function to **separate author details of Song str.**
 
-    let separateData = (allText, autor) => {
+    let separateData = (allText, author) => {
                         let song = allText.split(/(?=[A-Z])/); 
-                        autor = autor.split(/(?=[A-Z])/);
-                        song = song.slice(0, -(autor.length)); 
+                        author = author.split(/(?=[A-Z])/);
+                        song = song.slice(0, -(author.length)); 
                         return song.toString().replaceAll(',',"");
     }
     
