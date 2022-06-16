@@ -15,22 +15,22 @@ function run () {
 
                 // Separate author data of song property.
                 // song Str example: This is a Song for Miss Hedy LamarrJeff Beck, Johnny Depp.
-                let separateData = (allText, autor) => {
+                let separateData = (allText, author) => {
                     let song = allText.split(/(?=[A-Z])/); 
                     author = author.split(/(?=[A-Z])/);
                     song = song.slice(0, -(author.length)); 
                     return song.toString().replaceAll(',',"");
                 }
 
-                // get all elements that contains songs info and save that (song and autor).
+                // get all elements that contains songs info and save that (song and author).
                 let items = document.querySelectorAll('article ul.listado-letras li > a'); 
                 let data = [];
                 items.forEach(item => {
-                    autor = item.querySelector('.info-letra p').innerHTML
+                    author = item.querySelector('.info-letra p').innerHTML
                     data.push({
                         song :  separateData(item.querySelector('.info-letra').textContent,
-                                autor),
-                        autor : autor   
+                                author),
+                        author : author   
                     });
                 });
                 return data
