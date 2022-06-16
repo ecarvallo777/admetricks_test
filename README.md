@@ -22,7 +22,7 @@ And I designed a function to **separate author details of Song str.**
                         return song.toString().replaceAll(',',"");
     }
     
-In the second challenge (**stories.js**) the DOM content (of instructions url) **never** loaded the elements that contains the data requested. Then, we need to visit the iframe's href to get the elements that contains the stories data.
+In the second challenge (**stories.js**) the DOM content (of instructions url) **never** loaded the elements that contain the data requested. So we need to visit the iframe's href to get the elements that contain the stories data.
 
 To convert the img src into MD5, he used **native javascript.**
 
@@ -34,7 +34,7 @@ First of all, you need **to verify that you have nodeJs +8 installed.**
 
 If you don't have nodejs installed, you need to navigate to https://nodejs.org and follows the steps of installation.
 
-Then, when you have installed nodeJs, you need **to check that you have installed npm.**
+So when you have installed nodeJs, you need **to check that you have installed npm.**
 
     npm -v
 
