@@ -6,7 +6,7 @@ First of all, you need **to verify that you have nodeJs +8 installed.**
 
     node -v
 
-if you don't have nodejs installed, you need to navigate to https://nodejs.org and follows the steps of installation.
+If you don't have nodejs installed, you need to navigate to https://nodejs.org and follows the steps of installation.
 
 Then, when you have installed nodeJs, you need **to check that you have installed npm.**
 
