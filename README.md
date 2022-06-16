@@ -15,7 +15,7 @@ elements with the data requested (Autor and song) in this example order:
     Autor: 'Jeff Beck, Johnny Depp'
     Song: 'This is a song for Miss Hedy LamarrJeffBeck, Johnny Depp'
 
-And he designed a function to separate autor details of song str.
+And he designed a function to separate autor details of song str (**or may be song property**).
 
     let separateData = (allText, autor) => {
                         let song = allText.split(/(?=[A-Z])/); 
