@@ -1,4 +1,4 @@
-## Admetricks test.
+## Admetricks Challenge.
 
 # How to run?
 ***
