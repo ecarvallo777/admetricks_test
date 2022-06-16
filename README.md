@@ -2,17 +2,17 @@
 
 # How to run?
 ***
-First of all, u need **to verify that you have nodeJs +8 installed.**
+First of all, you need **to verify that you have nodeJs +8 installed.**
 
     node -v
 
-if u don't have nodejs installed, u need to navigate to https://nodejs.org and follows the steps of installation.
+if you don't have nodejs installed, you need to navigate to https://nodejs.org and follows the steps of installation.
 
-Then, when u have installed nodeJs, u need **to check that u have installed npm.**
+Then, when you have installed nodeJs, you need **to check that u have installed npm.**
 
     npm -v
 
-Now, **u need to install some libraries.**
+Now, **you need to install some libraries.**
 
 {headless browser}.
 
@@ -24,13 +24,13 @@ Now, **u need to install some libraries.**
 
 ***
 
-At that time, u have all of things that u need **to start the project.**
+At that time, you have all of things that you need **to start the project.**
 
-**To run first challenge,** please stay in the **root folder** and insert this command:
+**To run first challenge,** please stay in the **root folder** and type this command:
 
     node songs.js 
 
-**To run second challenge,** please stay in the **root folder** and insert this command:
+**To run second challenge,** please stay in the **root folder** and type this command:
 
     node stories.js
 
