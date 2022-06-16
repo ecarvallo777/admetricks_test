@@ -12,8 +12,8 @@ Finally, export data and take screenshots.
 In addition, the robot _se encontró_ with some difficulties to save messy data. In the first challenge (songs.js), he gets 
 elements with the data requested (Autor and song) in this example order:
 
-    Autor: 'Jeff Beck, Johnny Depp'
     Song: 'This is a song for Miss Hedy LamarrJeffBeck, Johnny Depp'
+    Autor: 'Jeff Beck, Johnny Depp'
 
 And he designed a function to separate autor details of song str (_or may be song property_).
 
