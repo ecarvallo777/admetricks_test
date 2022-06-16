@@ -39,7 +39,7 @@ Then, when you have installed nodeJs, you need **to check that you have installe
 
     npm -v
 
-Now, **you need to install some libraries.**
+Now, **you need to download some libraries.**
 
 **puppeteer:** A high-level API to control chrome over the devTools protocols. https://pptr.dev/.
 
