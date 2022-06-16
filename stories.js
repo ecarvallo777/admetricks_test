@@ -10,7 +10,7 @@ function run (){
                 waitUntil : 'domcontentloaded'
             };
             let getSrc = await page.evaluate(() =>{
-                // In this case, the robot need to **visit the iframe url to scrappe** into the page content
+                // In this case, the robot need to **visit the iframe url to scrape** into the page content
                 // Because, the DOM content loaded never show the selectors of the elements that
                 // Contains the data requested. 
 
