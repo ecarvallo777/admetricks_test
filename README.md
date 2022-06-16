@@ -24,7 +24,7 @@ And I designed a function to **separate author details of Song str.**
     
 In the second challenge (**stories.js**) the DOM content (of instructions url) **never** loaded the elements that contain the data requested. So we need to visit the iframe's href to get the elements that contain the stories data.
 
-To convert the img src into MD5, he used **native javascript.**
+To convert the img src into MD5, we used **native javascript.**
 
 # How to run?
 ***
