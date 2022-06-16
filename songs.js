@@ -14,7 +14,7 @@ function run () {
                 // Get data without syntax and design a function to order this.
 
                 // Separate autor data of song Str.
-                // song Str example: Quiero SerDanny Santillán.
+                // song Str example: This is a Song for Miss Hedy LamarrJeff Beck, Johnny Depp.
                 let separateData = (allText, autor) => {
                     let song = allText.split(/(?=[A-Z])/); 
                     autor = autor.split(/(?=[A-Z])/);
