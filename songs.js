@@ -9,9 +9,10 @@ function run () {
             const page = await browser.newPage(); 
             await page.goto("https://www.musica.com/letras.asp?letras=novedades");
             let getSongs = await page.evaluate(() => {
-                // We find two ways to get the data requested:
-                // Clicking href's of each song and load +40 pages content or
-                // Get data without syntax and design a function to sort this.
+                // I find two ways to get the data requested:
+                // [1] Clicking href's of each song and load +40 pages content or
+                // [2] Get data without syntax and design a function to sort this.
+                // I chose the second way.
 
                 // Separate author data of song property.
                 // song Str example: This is a Song for Miss Hedy LamarrJeff Beck, Johnny Depp.
