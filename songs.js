@@ -11,14 +11,14 @@ function run () {
             let getSongs = await page.evaluate(() => {
                 // We find two ways to get the data requested:
                 // Clicking href's of each song and load +40 pages content or
-                // Get data without syntax and design a function to order this.
+                // Get data without syntax and design a function to sort this.
 
-                // Separate autor data of song property.
+                // Separate author data of song property.
                 // song Str example: This is a Song for Miss Hedy LamarrJeff Beck, Johnny Depp.
                 let separateData = (allText, autor) => {
                     let song = allText.split(/(?=[A-Z])/); 
-                    autor = autor.split(/(?=[A-Z])/);
-                    song = song.slice(0, -(autor.length)); 
+                    author = author.split(/(?=[A-Z])/);
+                    song = song.slice(0, -(author.length)); 
                     return song.toString().replaceAll(',',"");
                 }
 
