@@ -3,18 +3,17 @@ Capture and extract data from Internet (:
 
 # The implemented solution
 ***
-The robot decided that this challenge will be developed with **Node.js** using a **headless browser** to navigate into the 
-content of the **instructions url's** and then, **get elements with the data requested** (using CSS selectors).
+After analyzing the proposed problem I decided that this challenge will be solved with **Node.js** using a **headless browser** to navigate into the 
+content of the **instructions url's** and then, **get elements with the data requested** (needing CSS selectors of the page content).
 
 Finally, **export data and take screenshots.**
 
-In addition, the robot found with some difficulties to save messy data. In the first challenge (**songs.js**), he gets 
-elements with the data requested (song and autor) in this example order:
+In the first challenge (**songs.js**) we found messy data, i.e. raw data obtained from the web, so my implementation is based on an extracting process. It gets elements with the data requested (song and author) following this example order::
 
     Song: 'This is a song for Miss Hedy LamarrJeffBeck, Johnny Depp'
     Autor: 'Jeff Beck, Johnny Depp'
 
-And he designed a function to **separate autor details of Song str.**
+And I designed a function to **separate autor details of Song str.**
 
     let separateData = (allText, autor) => {
                         let song = allText.split(/(?=[A-Z])/); 
@@ -23,7 +22,7 @@ And he designed a function to **separate autor details of Song str.**
                         return song.toString().replaceAll(',',"");
     }
     
-In the second challenge (**stories.js**), the DOM content (of instructions url) **never** loaded the elements that contains the data requested. Then, he visited the iframe's href to get the elements that contains the stories data.
+In the second challenge (**stories.js**), the DOM content (of instructions url) **never** loaded the elements that contains the data requested. Then, we need to visit the iframe's href to get the elements that contains the stories data.
 
 To convert the img src into MD5, he used **native javascript.**
 
