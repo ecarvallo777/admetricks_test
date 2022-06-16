@@ -14,11 +14,11 @@ Then, when you have installed nodeJs, you need **to check that you have installe
 
 Now, **you need to install some libraries.**
 
-{headless browser}.
+{puppeteer: A high-level API to control chrome over the devTools protocols. https://pptr.dev/}.
 
     npm i puppeteer 
     
-{to export data}.
+{objects-to-csv: A library that allows convert arrays of objects into csv files. https://www.npmjs.com/package/objects-to-csv}
 
     npm i objects-to-csv 
 
