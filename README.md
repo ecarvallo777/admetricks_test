@@ -18,7 +18,7 @@ Now, **you need to install some libraries.**
 
     npm i puppeteer 
     
-**objects-to-csv:** A library that allows convert arrays of objects into csv files. https://www.npmjs.com/package/objects-to-csv
+**objects-to-csv:** A library that allows convert arrays of objects into csv files. https://www.npmjs.com/package/objects-to-csv.
 
     npm i objects-to-csv 
 
