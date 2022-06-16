@@ -1,21 +1,20 @@
 ## Admetricks Challenge.
-***
 Capture and extract data from Internet (:
 
 # The implemented solution
 ***
 The robot decided that this challenge will be developed with **Node.js** using a **headless browser** to navigate into the 
-content of the instructions url's and then, get elements with the data requested (using CSS selectors).
+content of the **instructions url's** and then, **get elements with the data requested** (using CSS selectors).
 
-Finally, export data and take screenshots.
+Finally, **export data and take screenshots.**
 
-In addition, the robot _se encontró_ with some difficulties to save messy data. In the first challenge (songs.js), he gets 
-elements with the data requested (Autor and song) in this example order:
+In addition, the robot _se encontró_ with some difficulties to save messy data. In the first challenge (**songs.js**), he gets 
+elements with the data requested (song and autor) in this example order:
 
     Song: 'This is a song for Miss Hedy LamarrJeffBeck, Johnny Depp'
     Autor: 'Jeff Beck, Johnny Depp'
 
-And he designed a function to separate autor details of song str (_or may be song property_).
+And he designed a function to **separate autor details of Song str.**
 
     let separateData = (allText, autor) => {
                         let song = allText.split(/(?=[A-Z])/); 
@@ -23,7 +22,10 @@ And he designed a function to separate autor details of song str (_or may be son
                         song = song.slice(0, -(autor.length)); 
                         return song.toString().replaceAll(',',"");
     }
+    
+In the second challenge (**stories.js**), the DOM content (of instructions url) **never** loaded the elements that contains the data requested. Then, he visited the iframe's href to get the elements that contains the stories data.
 
+To convert the img src into MD5, he used **native javascript.**
 
 # How to run?
 ***
