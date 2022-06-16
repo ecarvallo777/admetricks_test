@@ -8,7 +8,7 @@ content of the **instructions url's** and then, **get elements with the data req
 
 Finally, **export data and take screenshots.**
 
-In addition, the robot _se encontró_ with some difficulties to save messy data. In the first challenge (**songs.js**), he gets 
+In addition, the robot found with some difficulties to save messy data. In the first challenge (**songs.js**), he gets 
 elements with the data requested (song and autor) in this example order:
 
     Song: 'This is a song for Miss Hedy LamarrJeffBeck, Johnny Depp'
