@@ -26,11 +26,11 @@ Now, **you need to install some libraries.**
 
 At that time, you have all of things that you need **to start the project.**
 
-**To run first challenge,** please stay in the **root folder** and type this command:
+**To run the first challenge,** please stay in the **root folder** and type this command:
 
     node songs.js 
 
-**To run second challenge,** please stay in the **root folder** and type this command:
+**To run the second challenge,** please stay in the **root folder** and type this command:
 
     node stories.js
 
