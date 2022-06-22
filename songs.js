@@ -1,10 +1,8 @@
 const puppeteer = require('puppeteer');
 const ObjectsToCsv = require('objects-to-csv'); 
-
 function run () {
     return new Promise(async (resolve, reject) => { 
         try {
-            // Launch a headless browser, visit instructions url.
             const browser = await puppeteer.launch(); 
             const page = await browser.newPage(); 
             await page.goto("https://www.musica.com/letras.asp?letras=novedades");
@@ -23,7 +21,6 @@ function run () {
                     return song.toString().replaceAll(',',"");
                 }
 
-                // get all elements that contains songs info and save that (song and author).
                 let items = document.querySelectorAll('article ul.listado-letras li > a'); 
                 let data = [];
                 items.forEach(item => {
